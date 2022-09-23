@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 if __name__ == "__main__":
+    """Print some of 1 and 2"""
     from add_0 import add
 
     a = 1
