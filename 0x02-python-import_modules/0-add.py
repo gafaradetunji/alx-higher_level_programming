@@ -1,7 +1,7 @@
 #!/usr/bin/bash
-def add(a,b):
+if __name__ == "__main__":
+    from add import add
+
     a = 1
     b = 2
-    return (a + b)
-
-print(add)
+    print("{} + {} = {}".format(a, b, add(a, b)))
