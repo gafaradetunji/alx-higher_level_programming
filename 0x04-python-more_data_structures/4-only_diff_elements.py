@@ -2,4 +2,4 @@
 
 def only_diff_elements(set_1, set_2):
     r = set_1 + set_2
-    return set(p)
+    return set(r)
